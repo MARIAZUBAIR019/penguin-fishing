@@ -1,1 +1,25 @@
 # penguin-fishing
+
+Player animation code 
+
+using System.Collection;
+using System.Collections.Generics;
+usimg UnityEngine;
+
+publc class Player: MonoBehaviour
+{
+    publc float speed = 6;
+    public float turnspeed = 2;
+
+    voud update()
+
+{
+   float strafe = Input.GetAxis("Horzontal");
+   float forward = Input.GetAxis("vertical");
+   transform.Translate( new Vector3(strafe, 0, forward) * speed * Time.deltaTime);
+   float turn = input.GetAxis("Mouse X");
+
+   transform.rotation *= Quaternion.Slerp(Quaternion.identity, Quaternion.LookRotation(turn<0? Vector3.left: Vector3.right), Mathf.Abs(turn)* turnspeed*Time.deltaTime);
+}
+
+}
