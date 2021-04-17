@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Developement Document</title>
+    <link rel="stylesheet" href="Gamedocumentproject.css">
+
+</head>
+
+<body>
+
+    <div id="content">
+        <img src="background.jpg" class="photo"/>
+        </div>
+
+    <div id="Main-container">
+        <!-- main-container-start -->
+        <div id="header">
+            <!-- header-start -->
+            <center>
+                <h1> Game Developement Document</h1>
+                <h2>Game Title: Penguin-fishing </h2>
+            </center>
+
+        </div> <!-- header-start -->
+
+        <div class="container" id="ExecutiveSummary">
+            <!-- ExecutiveSummary-start -->
+           <center><h2>Executive Summary</h2></center>
+            
+                
+                  <h3>Concept</h3>                
+                
+                    <p>The aim of penguin fishing is to motivate the fishing and love of bears and penguins. 
+                        And also to enternain people by such a game which is easy to play by every age of person.
+                        </p>
+
+                    <h3>Genre</h3>
+               
+                    <p>Fish Hunting</p>
+               
+                   <h3>Target Audiance</h3>
+               
+                    <p>This is designed for childs as well as younger from the age group of 6 to 25.</p>
+                
+                    <h3>Project Scope</h3>
+                
+                    <p>To entertain and help people learn new strategies. 
+                        Penguin Fishing is a game played outside the Ski Lodge which could be accessed by clicking on the wooden door with a fish above it.
+                        There are also power-ups that help our fishing by giving us more hooks, fastening our hook speed, multiplying our score gain, etc</p>
+             
+        </div> <!-- ExecutiveSummary-end -->
+
+    </div> <!-- main-container-end -->
+
+
+    <div class="container" id="GAMEPLAY">
+       
+       <center><h2>GAME PLAY</h2></center>
+
+                    <h3>OBJECTIVE</h3>                
+                
+                    <p>The objective of the game is to catch fishes before loosing all the worms. 
+                        Underneath the hole lay fish but also other potentially dangerous obstacles such as crabs,
+                         jellyfish and sharks. The maximum number of fish the player could catch would be depending. 
+                         The player started out with 3 worms for bait and could catch bonus bait throughout the game. 
+                         It is a fishing game where the main goal is fishing through an endless stream of fish and not letting our penguin fall down by gaining points. There are obstacles that hinder our hook and blocking us from fishing. 
+                         There are also sharks that eat our hook and decrease our hook supply.
+
+                        </p>
+
+                    <h3>GAME PROGRESSIONS</h3>
+               
+                    <p>There will be a signp option to start the game. When you once created your account you have to
+                        only enter your username or password assosiated with it. Then you can enter into the game. There will be
+                        levels different location. Level will be passed by catching all the fishes and without loosing the 
+                        strings (lives). You can choose the locations by yourself. You can also choose your player to whom with you want to play.
+                    </p>
+               
+                    <h3>IN-GAME GUI</h3>
+               
+                    <p>Gui of game is all from unity assets store.</p>
+                          
+       </div>
+
+       <div class="container" id="MECHANICS">
+       
+        <center><h2>MECHANICS</h2></center>
+ 
+                     <h3>RULES</h3>                
+                 
+                     <p> It is a fishing game where the main goal is fishing through an endless stream of fish and not letting our penguin fall down by gaining points. There are obstacles that hinder our hook and blocking us from fishing. 
+                         There are also sharks that eat our hook and decrease our hook supply.
+
+                     </p>
+
+                     <h3>COMBAT</h3>
+                
+                     <p>This is not a combat type of game. This involves only obstacle in way of catching the fishes.
+                         There are small enemies like big fishes, star fishes, jelly fishes etc. Which can harm the string.
+                         Which may be consider as enemy.
+                     </p>
+                
+                     <h3>PHYSICS</h3>
+                
+                     <p>The activity involves allows you to observe momemtum conservation for a collision between
+                         a catcher string and a fish. The fish is in motion and the catcher string is still. After collision both
+                         the catcher string and fish start moving at the same speed.
+                     </p>
+                           
+        </div>
+
+        <div class="container" id="GAME ELEMENT">
+       
+            <center><h2>GAME ELEMENT</h2></center>
+     
+                           <h3>STORY</h3>                
+                     
+                            <p>As we all know that bears love to catch eat fishes.
+                                So in order to make this interesting we decided to make a game related to fishes bears
+                                and so on. The objective of the game is to catch fishes before loosing all the worms. 
+                                Underneath the hole lay fish but also other potentially dangerous obstacles such as crabs,
+                                 jellyfish and sharks. The maximum number of fish the player could catch would be depending. 
+                                 The player started out with 3 worms for bait and could catch bonus bait throughout the game. 
+                                 It is a fishing game where the main goal is fishing through an endless stream of fish and not letting our penguin fall down by gaining points. There are obstacles that hinder our hook and blocking us from fishing. 
+                                 There are also sharks that eat our hook and decrease our hook supply.here wil be max 4 levels in this game.The game is infinite if you can keep up fishing and gain points. 
+                                 Game ends when platform under the bear melts away because of not gaining points fast or by exhausting our hook supply.
+                            </p>
+
+                             <h3>CHARACTERS</h3>
+                
+                             <p> *Male penguin <br></br>
+                                 *Female penguin <br></br>
+                                 *Astronot penguin <br></br>
+                                 *Pirate penguin <br></br>
+                                 *Joker penguin <br></br>
+                                 *Cowboy (penguin) <br></br> 
+                             </p>
+                        
+                            <h3>LOCATIONS</h3>
+                        
+                             <p>
+                                 *Island <br></br>
+                                 *Bambu shooters <br></br>
+                                 *Aahara <br></br>
+                                 *Buzul <br></br>
+                             </p>
+                                   
+                            <h3>LEVEL</h3>
+                    
+                            <p>There wil be maximum levels in this game.The game is infinite if you can keep up fishing and gain points. 
+                                Game ends when platform under the bear melts away because of not gaining points fast or by exhausting our hook supply.
+
+                            </p>
+                               
+            </div>
+
+            <div class="container" id="ASSETS">
+       
+                <center><h2>ASSETS</h2></center>
+         
+                                 <h3>MUSIC</h3>                
+                         
+                                 <p>There is beat type music in all over the game. </p>
+
+                                 <h3>SOUND EFFECTS</h3>
+                    
+                                 <p>There will be different sound/audios according to different acts.
+                                     We will add the audios in assets folders.
+                                 </p>
+                            
+                                 <h3>2D/3D MODEL</h3>
+                            
+                                 <p>It is a 2d model game.</p>
+                                                            
+                </div>
+    
+
+</body>
+
+</html>
+
+***********************************************css***************************************************
+
+body
+{
+background-color: white;
+
+font-family: sans-sarif;
+width: 1000px;
+height: 800px;
+}
+.photo {
+  
+  height: 400px;
+  width:120%;
+}
